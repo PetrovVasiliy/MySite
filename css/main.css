@@ -31,3 +31,8 @@ html, body,main {
 	text-transform: uppercase;
 	letter-spacing: 20px;
 }
+
+.contact li {
+	text-align: left;
+	font-size: 30px;
+}
