@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+DirectoryIndex index.html
+
+Redirect 301 / /index.html
+
+ErrorDocument 404
+http://site.ru/error/404.html
