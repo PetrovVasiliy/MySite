@@ -10,6 +10,7 @@
 
 html, body,main {
 	height: 100%;
+	font-family: DischargePro.ttf;
 }
 
 .First {
@@ -18,4 +19,15 @@ html, body,main {
 	background-position: top;
 	-webkit-background-size: cover;
 	background-size: cover;
+}
+
+.Header {
+	color: whitesmoke;
+	width: 100%;
+	text-align: left;
+	padding-top: 150px;
+	padding-left: 200px;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 20px;
 }
