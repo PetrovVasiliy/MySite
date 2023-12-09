@@ -4,13 +4,8 @@
 	box-sizing: border-box;
 }
 
-@font-face {
-	src: url(../fonts/DischargePro.ttf);
-}
-
 html, body,main {
 	height: 100%;
-	font-family: DischargePro.ttf;
 }
 
 .First {
@@ -26,6 +21,7 @@ html, body,main {
 	width: 100%;
 	text-align: left;
 	padding-top: 150px;
+	padding-bottom: 70px;
 	padding-left: 200px;
 	font-size: 45px;
 	text-transform: uppercase;
@@ -35,4 +31,5 @@ html, body,main {
 .contact li {
 	text-align: left;
 	font-size: 30px;
+	padding-left: 200px;
 }
